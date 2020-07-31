@@ -1,0 +1,19 @@
+#Input1 .inputs{width:100%;height:100%;margin-left:15%;min-width:600px;}
+#Input1 li{list-style:none;padding:5px;}
+#Input1 li>label{color:#bdbdbd}
+#Input1 li>input{border-radius: 5px;
+        border:1px solid #bbbbbb;
+        width:50%; height:2.5em;
+        margin-top:10px;}
+
+#Input1 li:nth-child(1)>input{width:37%;}
+#Input1 li:nth-child(1)>button{width:10%;margin-left:20px;height:3em;
+                      background-color:white;border:1px solid #bbbbbb;
+                      min-width:50px;border-radius:5px;font-size:11px;}
+                      
+#Input1 li:nth-child(4)>input{width:50%;left:0px;}
+#Input1 input[type="number"]::-webkit-outer-spin-button,
+#Input1 input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
